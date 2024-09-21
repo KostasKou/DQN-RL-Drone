@@ -1,0 +1,26 @@
+{
+    "FileVersion": 3,
+    "EngineAssociation": "4.27",
+    "Category": "Samples",
+    "Description": "",
+    "Modules": [
+        {
+            "Name": "AirMountains",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "AdditionalDependencies": [
+                "AirSim"
+            ]
+        }
+    ],
+    "TargetPlatforms": [
+        "MacNoEditor",
+        "WindowsNoEditor"
+    ],
+    "Plugins": [
+        {
+            "Name": "AirSim",
+            "Enabled": true
+        }
+    ]
+}
